@@ -5,6 +5,7 @@ build:
 runs-on: ubuntu-latest
 steps:
 - uses: make setup
-- uses: make test
-- uses: make lint
-- run: make start
+- uses: make start
+
+- run: make test
+- run: make lint
